@@ -58,6 +58,8 @@ The following steps guide you on how to create roles in Windows Defender Securit
 
 After creating roles, you'll need to create a machine group and provide access to the machine group by assigning it to a role that you just created. 
 
+>[!NOTE]
+>The Windows Defender ATP administrator (default) role has administrator permissions. Administrator permissions cannot be assigned to any other role. Only those who are assigned the Windows Defender ATP administrator role, has access to all machine groups.
 
 ## Edit roles
 
@@ -76,6 +78,6 @@ After creating roles, you'll need to create a machine group and provide access t
 2.	Click the drop-down button and select **Delete role**.
 
 
-##Related topic
+##Related topics
 - [User basic permissions to access the portal](basic-permissions-windows-defender-advanced-threat-protection.md)
 - [Create and manage machine groups](machine-groups-windows-defender-advanced-threat-protection.md)
